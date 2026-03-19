@@ -203,7 +203,7 @@ For MongoDB Atlas, use the built-in backup or:
 
 ```bash
 # Backup Atlas cluster
-mongodump --uri="mongodb+srv://user:pass@cluster.mongodb.net/mydb" \
+mongodump --uri="mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>" \
   --gzip \
   --out=/backup/atlas_$(date +%Y%m%d)
 ```
