@@ -18,7 +18,7 @@ This document catalogs common credential types detected by the security scanner.
 
 **AWS Access Key ID**:
 - Pattern: `AKIA[0-9A-Z]{16}`
-- Example: `AKIAIOSFODNN7EXAMPLE`
+- Example: `AKIA-EXAMPLE-KEY-REDACTED`
 - Location: Often in `.env`, config files, or infrastructure code
 - Risk: Full AWS account access
 

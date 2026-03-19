@@ -358,7 +358,7 @@ aws iam create-virtual-mfa-device --virtual-mfa-device-name root-mfa
 aws accessanalyzer create-analyzer --analyzer-name my-analyzer --type ACCOUNT
 
 # Rotate access keys regularly (max 90 days)
-aws iam update-access-key --access-key-id AKIAIOSFODNN7EXAMPLE --status Inactive
+aws iam update-access-key --access-key-id AKIA-EXAMPLE-KEY-REDACTED --status Inactive
 ```
 
 **Data Encryption**:

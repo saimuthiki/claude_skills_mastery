@@ -113,7 +113,7 @@ while read user; do
 done
 
 # Rotate access key
-OLD_KEY="AKIAIOSFODNN7EXAMPLE"
+OLD_KEY="AKIA-EXAMPLE-KEY-REDACTED"
 USER="myuser"
 
 # Create new key

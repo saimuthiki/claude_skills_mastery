@@ -94,7 +94,7 @@ Run a fast automated security scan of your codebase to identify common vulnerabi
 **Example Findings:**
 ```javascript
 //  CRITICAL: Hardcoded AWS credentials
-const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE"
+const AWS_ACCESS_KEY = "AKIA-EXAMPLE-KEY-REDACTED"
 const AWS_SECRET_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 // File: config/aws.js:12-13
@@ -206,7 +206,7 @@ $ /security-scan-quick
     File: services/s3-upload.js:15
     Severity: Critical
 
-   AWS_ACCESS_KEY_ID: "AKIAIOSFODNN7EXAMPLE"
+   AWS_ACCESS_KEY_ID: "AKIA-EXAMPLE-KEY-REDACTED"
 
    ️  Impact: Unauthorized access to AWS account, potential $$$$ charges
 

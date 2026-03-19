@@ -135,7 +135,7 @@ When creating a new MCP integration:
         "github-mcp@latest"
       ],
       "env": {
-        "GITHUB_TOKEN": "ghp_your_token_here",
+        "GITHUB_TOKEN": "your-github-token-here",
         "GITHUB_API_URL": "https://api.github.com",
         "RATE_LIMIT_REQUESTS": "5000",
         "RATE_LIMIT_WINDOW": "3600"
