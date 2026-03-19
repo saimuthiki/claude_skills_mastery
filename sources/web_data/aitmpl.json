@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Bright Data Web Data",
+    "type": "skill",
+    "description": "Complete web data scraping solution for Claude Code using Bright Data services",
+    "source": "https://www.aitmpl.com/",
+    "domain": "web-automation",
+    "dependencies": ["bright-data"],
+    "installation_steps": ["Install via aitmpl marketplace"],
+    "tags": ["web-scraping", "data-collection", "bright-data", "featured"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Neon Database",
+    "type": "skill",
+    "description": "Complete Postgres database setup template using Neon serverless Postgres",
+    "source": "https://www.aitmpl.com/",
+    "domain": "databases",
+    "dependencies": ["neon", "postgres"],
+    "installation_steps": ["Install via aitmpl marketplace"],
+    "tags": ["postgres", "database", "neon", "serverless", "featured"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "ClaudeKit Toolkit",
+    "type": "agent",
+    "description": "AI agents and skills collection toolkit for Claude Code",
+    "source": "https://www.aitmpl.com/",
+    "domain": "ai-agents",
+    "dependencies": [],
+    "installation_steps": ["Install via aitmpl marketplace"],
+    "tags": ["toolkit", "agents", "skills", "featured"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "BrainGrid AI Product Planner",
+    "type": "agent",
+    "description": "AI Product Planner partner integration for Claude Code workflows",
+    "source": "https://www.aitmpl.com/",
+    "domain": "product-management",
+    "dependencies": [],
+    "installation_steps": ["Install via aitmpl marketplace"],
+    "tags": ["product-planning", "ai", "partner"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Stack Builder",
+    "type": "command",
+    "description": "Tool for composing custom Claude Code configurations from available components including skills, agents, commands, settings, hooks, and MCPs",
+    "source": "https://www.aitmpl.com/",
+    "domain": "configuration",
+    "dependencies": ["node-18+", "claude-code-cli"],
+    "installation_steps": ["npm install claude-code-templates", "Use Stack Builder interface"],
+    "tags": ["configuration", "stack-builder", "composer"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "aitmpl Skills Collection",
+    "type": "skill",
+    "description": "Collection of 1000+ skills for Claude Code available through the aitmpl marketplace",
+    "source": "https://www.aitmpl.com/skills",
+    "domain": "misc",
+    "dependencies": ["node-18+", "claude-code-cli"],
+    "installation_steps": ["npm install claude-code-templates", "Browse skills at aitmpl.com/skills"],
+    "tags": ["skills", "marketplace", "collection"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "aitmpl Agents Collection",
+    "type": "agent",
+    "description": "Collection of 600+ AI agents for Claude Code available through the aitmpl marketplace",
+    "source": "https://www.aitmpl.com/agents",
+    "domain": "ai-agents",
+    "dependencies": ["node-18+", "claude-code-cli"],
+    "installation_steps": ["npm install claude-code-templates", "Browse agents at aitmpl.com/agents"],
+    "tags": ["agents", "marketplace", "collection"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "aitmpl Commands Collection",
+    "type": "command",
+    "description": "Collection of 200+ slash commands for Claude Code workflows",
+    "source": "https://www.aitmpl.com/commands",
+    "domain": "commands",
+    "dependencies": ["node-18+", "claude-code-cli"],
+    "installation_steps": ["npm install claude-code-templates", "Browse commands at aitmpl.com/commands"],
+    "tags": ["commands", "slash-commands", "marketplace"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "aitmpl Hooks Collection",
+    "type": "hook",
+    "description": "Collection of 39+ automation triggers and scripts for Claude Code",
+    "source": "https://www.aitmpl.com/hooks",
+    "domain": "automation",
+    "dependencies": ["node-18+", "claude-code-cli"],
+    "installation_steps": ["npm install claude-code-templates", "Browse hooks at aitmpl.com/hooks"],
+    "tags": ["hooks", "automation", "triggers", "marketplace"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "aitmpl MCP Integrations Collection",
+    "type": "plugin",
+    "description": "Collection of 55+ MCP integrations for Claude Code external services",
+    "source": "https://www.aitmpl.com/mcps",
+    "domain": "integrations",
+    "dependencies": ["node-18+", "claude-code-cli"],
+    "installation_steps": ["npm install claude-code-templates", "Browse MCPs at aitmpl.com/mcps"],
+    "tags": ["mcp", "integrations", "external-services", "marketplace"],
+    "version": "1.0.0",
+    "files": []
+  }
+]

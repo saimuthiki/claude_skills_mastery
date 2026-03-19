@@ -1,0 +1,16 @@
+[
+  {
+    "name": "skillsmp-marketplace",
+    "type": "skill",
+    "description": "Skills marketplace - site returned 403 Forbidden during crawl. Unable to extract individual skill data.",
+    "source": "https://skillsmp.com/",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [],
+    "tags": ["marketplace", "unavailable"],
+    "version": "1.0.0",
+    "files": [],
+    "crawl_status": "403_forbidden",
+    "crawl_date": "2026-03-18"
+  }
+]

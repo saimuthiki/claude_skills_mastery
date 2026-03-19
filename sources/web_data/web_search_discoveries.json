@@ -1,0 +1,1227 @@
+[
+  {
+    "name": "anthropics/skills",
+    "type": "skill",
+    "description": "Official Anthropic repository of Agent Skills. Contains example skills for Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills (docx, pdf, pptx, xlsx). Source-available and actively used in production.",
+    "source": "https://github.com/anthropics/skills",
+    "domain": "official-skills",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository: git clone https://github.com/anthropics/skills.git",
+      "Copy desired skill folders to your project's .claude/skills/ directory",
+      "Skills are automatically available in Claude.ai paid plans"
+    ],
+    "tags": ["official", "anthropic", "creative", "design", "enterprise", "documents", "production"],
+    "version": "1.0.0",
+    "files": ["SKILL.md", "skills/skill-creator/SKILL.md", "skills/docx/", "skills/pdf/", "skills/pptx/", "skills/xlsx/"]
+  },
+  {
+    "name": "anthropics/claude-code",
+    "type": "plugin",
+    "description": "Official Claude Code repository containing plugins, hook examples, and extension infrastructure. Includes official plugins for frontend-design, plugin-dev, and skill-development with SKILL.md templates.",
+    "source": "https://github.com/anthropics/claude-code",
+    "domain": "official-platform",
+    "dependencies": [],
+    "installation_steps": [
+      "Install Claude Code: npm install -g @anthropic-ai/claude-code",
+      "Plugins directory contains official extensions",
+      "Hook examples at examples/hooks/"
+    ],
+    "tags": ["official", "anthropic", "plugins", "hooks", "platform", "cli"],
+    "version": "1.0.0",
+    "files": ["plugins/", "examples/hooks/", "plugins/plugin-dev/skills/skill-development/SKILL.md", "plugins/frontend-design/skills/frontend-design/SKILL.md"]
+  },
+  {
+    "name": "anthropics/claude-plugins-official",
+    "type": "plugin",
+    "description": "Official Anthropic-managed directory of high-quality Claude Code Plugins. Automatically available when you start Claude Code.",
+    "source": "https://github.com/anthropics/claude-plugins-official",
+    "domain": "official-plugins",
+    "dependencies": [],
+    "installation_steps": [
+      "Automatically available when using Claude Code",
+      "Can also register as a marketplace source within Claude Code"
+    ],
+    "tags": ["official", "anthropic", "plugins", "marketplace", "curated"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "anthropics/claude-code-security-review",
+    "type": "skill",
+    "description": "AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities. Uses deep semantic understanding for diff-aware scanning with advanced filtering to reduce noise.",
+    "source": "https://github.com/anthropics/claude-code-security-review",
+    "domain": "security",
+    "dependencies": ["GitHub Actions"],
+    "installation_steps": [
+      "Add the GitHub Action to your repository's workflow YAML",
+      "Configure security scanning rules"
+    ],
+    "tags": ["official", "anthropic", "security", "github-actions", "code-review", "vulnerability-detection"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "alirezarezvani/claude-skills",
+    "type": "skill",
+    "description": "+192 Claude Code skills and agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents. Covers engineering, marketing, product, compliance, and C-level advisory domains.",
+    "source": "https://github.com/alirezarezvani/claude-skills",
+    "domain": "multi-domain-skills",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy desired skill folders to .claude/skills/",
+      "Compatible with Claude Code, Codex, Gemini CLI, Cursor, and others"
+    ],
+    "tags": ["skills", "multi-agent", "engineering", "marketing", "product", "compliance", "cross-platform"],
+    "version": "1.0.0",
+    "files": ["SKILL.md"]
+  },
+  {
+    "name": "alirezarezvani/claude-code-skill-factory",
+    "type": "skill",
+    "description": "Claude Code Skill Factory - A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Generate structured skill templates and automate workflow integration.",
+    "source": "https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "skill-development",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Follow the skill factory setup instructions",
+      "Use templates to generate new skills"
+    ],
+    "tags": ["skill-factory", "templates", "code-agents", "slash-commands", "automation", "toolkit"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "levnikolaevich/claude-code-skills",
+    "type": "skill",
+    "description": "Production-ready skills covering the full delivery workflow: research and discovery, epic planning, task breakdown, implementation, testing, code review, and quality gates.",
+    "source": "https://github.com/levnikolaevich/claude-code-skills",
+    "domain": "development-workflow",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy skill folders into your .claude/skills/ directory"
+    ],
+    "tags": ["production", "workflow", "planning", "testing", "code-review", "quality-gates"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "daymade/claude-code-skills",
+    "type": "skill",
+    "description": "Professional Claude Code skills marketplace featuring 42 production-ready skills for enhanced development workflows.",
+    "source": "https://github.com/daymade/claude-code-skills",
+    "domain": "development-workflow",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Browse and select from 42 available skills",
+      "Copy to .claude/skills/"
+    ],
+    "tags": ["marketplace", "production", "professional", "development"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "ComposioHQ/awesome-claude-skills",
+    "type": "skill",
+    "description": "Curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows. Works across Claude.ai, Claude Code, and the Claude API - portable across all platforms.",
+    "source": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the repository for skills of interest",
+      "Follow individual skill installation instructions"
+    ],
+    "tags": ["awesome-list", "curated", "cross-platform", "composio"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "travisvn/awesome-claude-skills",
+    "type": "skill",
+    "description": "Curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows, particularly focused on Claude Code.",
+    "source": "https://github.com/travisvn/awesome-claude-skills",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the repository for skills",
+      "Follow individual installation instructions"
+    ],
+    "tags": ["awesome-list", "curated", "claude-code-focused"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "BehiSecc/awesome-claude-skills",
+    "type": "skill",
+    "description": "A curated list of Claude Skills with community contributions.",
+    "source": "https://github.com/BehiSecc/awesome-claude-skills",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse and select skills from the curated list"
+    ],
+    "tags": ["awesome-list", "curated", "community"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "VoltAgent/awesome-agent-skills",
+    "type": "skill",
+    "description": "500+ agent skills from official dev teams (Anthropic, Google Labs, Vercel, Stripe, Cloudflare, Netlify, Trail of Bits, Sentry, Expo, Hugging Face) and community. Compatible with Codex, Antigravity, Gemini CLI, Cursor and others.",
+    "source": "https://github.com/VoltAgent/awesome-agent-skills",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the repository",
+      "Select skills by vendor or category",
+      "Follow per-skill installation steps"
+    ],
+    "tags": ["awesome-list", "500+", "official-teams", "cross-platform", "enterprise"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "VoltAgent/awesome-claude-code-subagents",
+    "type": "agent",
+    "description": "Collection of 100+ specialized Claude Code subagents covering a wide range of development use cases. Each subagent is an expert in a specific domain, automatically invoked based on context.",
+    "source": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "domain": "subagents",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy subagent definitions to .claude/agents/ directory",
+      "Subagents are invoked based on context or explicitly called"
+    ],
+    "tags": ["subagents", "100+", "specialized", "domain-experts", "auto-invocation"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "sickn33/antigravity-awesome-skills",
+    "type": "skill",
+    "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills including official skills from Anthropic and Vercel.",
+    "source": "https://github.com/sickn33/antigravity-awesome-skills",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Browse 1000+ skills by category",
+      "Copy desired skills to your project"
+    ],
+    "tags": ["1000+", "battle-tested", "antigravity", "cursor", "cross-platform"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "hesreallyhim/awesome-claude-code",
+    "type": "skill",
+    "description": "Comprehensive curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code. Covers cchooks SDK, Hook Comms (HCOM), and more.",
+    "source": "https://github.com/hesreallyhim/awesome-claude-code",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the comprehensive categorized listing",
+      "Follow links to individual tools and resources"
+    ],
+    "tags": ["awesome-list", "comprehensive", "skills", "hooks", "commands", "orchestrators", "plugins"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "jmanhype/awesome-claude-code",
+    "type": "plugin",
+    "description": "Awesome list of Claude Code plugins, MCP servers, editor integrations, and resources.",
+    "source": "https://github.com/jmanhype/awesome-claude-code",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the curated list for plugins and MCP servers"
+    ],
+    "tags": ["awesome-list", "plugins", "mcp-servers", "editor-integrations"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "jqueryscript/awesome-claude-code",
+    "type": "skill",
+    "description": "Curated list of awesome tools, IDE integrations, frameworks, and other resources for developers working with Anthropic's Claude Code.",
+    "source": "https://github.com/jqueryscript/awesome-claude-code",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the repository for tools and integrations"
+    ],
+    "tags": ["awesome-list", "IDE", "frameworks", "tools"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "pascalporedda/awesome-claude-code",
+    "type": "skill",
+    "description": "Curated awesome list for Claude Code resources and tools.",
+    "source": "https://github.com/pascalporedda/awesome-claude-code",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the repository"
+    ],
+    "tags": ["awesome-list"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "ccplugins/awesome-claude-code-plugins",
+    "type": "plugin",
+    "description": "Awesome Claude Code plugins - a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code.",
+    "source": "https://github.com/ccplugins/awesome-claude-code-plugins",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the curated listing by category"
+    ],
+    "tags": ["awesome-list", "plugins", "slash-commands", "subagents", "mcp-servers", "hooks"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "wshobson/commands",
+    "type": "command",
+    "description": "57 production-ready slash commands (15 workflows, 42 tools) for Claude Code. Collections include: claude-code-essentials, full-stack-development, security-hardening, data-ml-pipeline, infrastructure-devops.",
+    "source": "https://github.com/wshobson/commands",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy command .md files to ~/.claude/commands/ (global) or .claude/commands/ (project)"
+    ],
+    "tags": ["commands", "57-commands", "workflows", "tools", "full-stack", "security", "devops", "ml"],
+    "version": "1.0.0",
+    "files": [".claude/commands/"]
+  },
+  {
+    "name": "wshobson/agents",
+    "type": "agent",
+    "description": "Intelligent automation and multi-agent orchestration for Claude Code. Provides a comprehensive agent system with 112 specialized AI agents, 16 workflow orchestrators, 146 agent skills, and 79 development tools in 72 focused plugins.",
+    "source": "https://github.com/wshobson/agents",
+    "domain": "agent-orchestration",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy agent definitions to your Claude Code configuration",
+      "Use orchestrators for complex multi-agent workflows"
+    ],
+    "tags": ["agents", "orchestration", "multi-agent", "112-agents", "16-orchestrators", "146-skills"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "qdhenry/Claude-Command-Suite",
+    "type": "command",
+    "description": "Professional slash commands for Claude Code providing 216+ slash commands, 12 Skills, 54 AI agents, and automated workflows for code review, feature creation, security auditing, and architectural analysis.",
+    "source": "https://github.com/qdhenry/Claude-Command-Suite",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy command files to .claude/commands/"
+    ],
+    "tags": ["216-commands", "12-skills", "54-agents", "code-review", "security", "architecture"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "badlogic/claude-commands",
+    "type": "command",
+    "description": "Global Claude Code commands and workflows for everyday development use.",
+    "source": "https://github.com/badlogic/claude-commands",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy to ~/.claude/commands/ for global availability"
+    ],
+    "tags": ["commands", "global", "workflows"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "artemgetmann/claude-slash-commands",
+    "type": "command",
+    "description": "Collection of useful slash commands for Claude Code CLI.",
+    "source": "https://github.com/artemgetmann/claude-slash-commands",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy .md files to .claude/commands/"
+    ],
+    "tags": ["commands", "cli", "collection"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "danielrosehill/Claude-Slash-Commands",
+    "type": "command",
+    "description": "Personal collection of Claude Code slash commands for development workflows.",
+    "source": "https://github.com/danielrosehill/Claude-Slash-Commands",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy commands to .claude/commands/"
+    ],
+    "tags": ["commands", "personal", "development"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "hiteshbedre/claude-custom-slash-commands",
+    "type": "command",
+    "description": "Custom slash commands for Claude Code to supercharge development workflow.",
+    "source": "https://github.com/hiteshbedre/claude-custom-slash-commands",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy commands to .claude/commands/"
+    ],
+    "tags": ["commands", "custom", "productivity"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "iannuttall/claude-sessions",
+    "type": "command",
+    "description": "Custom slash commands for Claude Code providing comprehensive development session tracking and documentation.",
+    "source": "https://github.com/iannuttall/claude-sessions",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy session tracking commands to .claude/commands/"
+    ],
+    "tags": ["commands", "sessions", "tracking", "documentation"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "papaoloba/spec-based-claude-code",
+    "type": "command",
+    "description": "Implementation of a Spec-Driven Development workflow in Claude Code using custom slash commands. Specifications are created, reviewed, and approved before implementation begins.",
+    "source": "https://github.com/papaoloba/spec-based-claude-code",
+    "domain": "slash-commands",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy spec-driven commands to .claude/commands/"
+    ],
+    "tags": ["commands", "spec-driven", "workflow", "methodology"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "davepoon/claude-code-subagents-collection",
+    "type": "agent",
+    "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections. Maintains 175 slash commands, 28 hooks, 26 skills, and 50 plugins.",
+    "source": "https://github.com/davepoon/claude-code-subagents-collection",
+    "domain": "collection-hub",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Browse by category (skills, agents, commands, hooks, plugins)",
+      "Copy desired components to your Claude Code configuration"
+    ],
+    "tags": ["hub", "175-commands", "28-hooks", "26-skills", "50-plugins", "marketplace"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "disler/claude-code-hooks-mastery",
+    "type": "hook",
+    "description": "Master Claude Code Hooks - comprehensive examples with standalone Python scripts and embedded dependency declarations. Includes subagent control, pre-compaction, and session initialization hooks.",
+    "source": "https://github.com/disler/claude-code-hooks-mastery",
+    "domain": "hooks",
+    "dependencies": ["Python"],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy hook scripts to .claude/hooks/",
+      "Configure hook events in .claude/settings.json"
+    ],
+    "tags": ["hooks", "mastery", "python", "subagent-control", "pre-compaction", "session-init"],
+    "version": "1.0.0",
+    "files": [".claude/hooks/"]
+  },
+  {
+    "name": "disler/claude-code-hooks-multi-agent-observability",
+    "type": "hook",
+    "description": "Real-time monitoring for Claude Code agents through simple hook event tracking. Provides observability across distributed multi-agent systems.",
+    "source": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+    "domain": "hooks",
+    "dependencies": ["Python"],
+    "installation_steps": [
+      "Clone the repository",
+      "Set up the monitoring server",
+      "Configure hooks to report events"
+    ],
+    "tags": ["hooks", "monitoring", "observability", "multi-agent", "real-time"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "karanb192/claude-code-hooks",
+    "type": "hook",
+    "description": "A growing collection of useful Claude Code hooks - copy, paste, customize. Includes block-dangerous-commands, protect-secrets, and auto-stage hooks.",
+    "source": "https://github.com/karanb192/claude-code-hooks",
+    "domain": "hooks",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy desired hook scripts to .claude/hooks/",
+      "Add hook configurations to .claude/settings.json"
+    ],
+    "tags": ["hooks", "safety", "secrets-protection", "auto-stage", "copy-paste"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "johnlindquist/claude-hooks",
+    "type": "hook",
+    "description": "TypeScript-powered hook system for Claude Code with full type safety, auto-completion, typed payloads, and npm package integration.",
+    "source": "https://github.com/johnlindquist/claude-hooks",
+    "domain": "hooks",
+    "dependencies": ["TypeScript", "npm"],
+    "installation_steps": [
+      "npm install the package",
+      "Create TypeScript hook files with typed payloads",
+      "Configure in .claude/settings.json"
+    ],
+    "tags": ["hooks", "typescript", "type-safety", "npm", "auto-completion"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "decider/claude-hooks",
+    "type": "hook",
+    "description": "Comprehensive hooks for Claude Code to enforce clean code practices and automate workflows.",
+    "source": "https://github.com/decider/claude-hooks",
+    "domain": "hooks",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy hooks to .claude/hooks/"
+    ],
+    "tags": ["hooks", "clean-code", "enforcement", "automation"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "GowayLee/cchooks",
+    "type": "hook",
+    "description": "A lightweight Python SDK for Claude Code hooks with a clean API and good documentation. Simplifies writing hooks and provides abstraction over JSON configuration files.",
+    "source": "https://github.com/GowayLee/cchooks",
+    "domain": "hooks-sdk",
+    "dependencies": ["Python"],
+    "installation_steps": [
+      "pip install cchooks",
+      "Use the SDK to define hooks programmatically",
+      "SDK handles JSON configuration generation"
+    ],
+    "tags": ["hooks", "sdk", "python", "lightweight", "api"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "ChrisWiles/claude-code-showcase",
+    "type": "skill",
+    "description": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows. Demonstrates AI-powered PR triage and code analysis.",
+    "source": "https://github.com/ChrisWiles/claude-code-showcase",
+    "domain": "showcase",
+    "dependencies": ["GitHub Actions"],
+    "installation_steps": [
+      "Clone the repository as a reference project",
+      "Adapt hooks, skills, agents, and commands to your needs"
+    ],
+    "tags": ["showcase", "example", "hooks", "skills", "agents", "commands", "github-actions"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "davila7/claude-code-templates",
+    "type": "skill",
+    "description": "CLI tool for configuring and monitoring Claude Code. Comprehensive collection of AI agents, custom commands, settings, hooks, external integrations (MCPs), and project templates with polished UI, usage dashboard, and analytics.",
+    "source": "https://github.com/davila7/claude-code-templates",
+    "domain": "templates",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Run the CLI tool to configure Claude Code",
+      "Select from available templates and agents"
+    ],
+    "tags": ["templates", "cli", "agents", "commands", "hooks", "mcp", "dashboard", "analytics"],
+    "version": "1.0.0",
+    "files": ["CLAUDE.md"]
+  },
+  {
+    "name": "FlorianBruniaux/claude-code-ultimate-guide",
+    "type": "skill",
+    "description": "Covers Claude Code from beginner to power user with production-ready templates, guides on agentic workflows, quizzes, and a cheatsheet.",
+    "source": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+    "domain": "guide",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Follow the guide from beginner to power user",
+      "Use production-ready templates as starting points"
+    ],
+    "tags": ["guide", "templates", "beginner-to-advanced", "cheatsheet", "quizzes"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "serpro69/claude-starter-kit",
+    "type": "skill",
+    "description": "Starter template repo for all your Claude Code needs: configs, skills, agents, and more. Pre-configured MCP servers with templates for Claude Code, Serena, and Task Master.",
+    "source": "https://github.com/serpro69/claude-starter-kit",
+    "domain": "templates",
+    "dependencies": ["MCP servers"],
+    "installation_steps": [
+      "Fork or clone the repository",
+      "Customize configs, skills, and agents",
+      "Set up pre-configured MCP servers"
+    ],
+    "tags": ["starter-kit", "template", "configs", "skills", "agents", "mcp", "serena", "task-master"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "pedrohcgs/claude-code-my-workflow",
+    "type": "skill",
+    "description": "Ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
+    "source": "https://github.com/pedrohcgs/claude-code-my-workflow",
+    "domain": "academic",
+    "dependencies": ["LaTeX", "R"],
+    "installation_steps": [
+      "Fork the repository",
+      "Configure for your academic project",
+      "Use multi-agent review and QA workflows"
+    ],
+    "tags": ["academic", "latex", "beamer", "R", "multi-agent", "quality-gates", "replication"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "scotthavird/claude-code-template",
+    "type": "skill",
+    "description": "Customizable starter template for Claude Code optimized for rapid prototyping and AI-assisted software development.",
+    "source": "https://github.com/scotthavird/claude-code-template",
+    "domain": "templates",
+    "dependencies": [],
+    "installation_steps": [
+      "Fork or clone the template",
+      "Customize for your project needs"
+    ],
+    "tags": ["template", "prototyping", "starter"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "centminmod/my-claude-code-setup",
+    "type": "skill",
+    "description": "Shared starter template configuration and CLAUDE.md memory bank system for Claude Code.",
+    "source": "https://github.com/centminmod/my-claude-code-setup",
+    "domain": "templates",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy CLAUDE.md memory bank configuration to your project"
+    ],
+    "tags": ["template", "memory-bank", "CLAUDE.md", "configuration"],
+    "version": "1.0.0",
+    "files": ["CLAUDE.md"]
+  },
+  {
+    "name": "feiskyer/claude-code-settings",
+    "type": "command",
+    "description": "Claude Code settings, commands and agents for vibe coding. Pre-configured development environment.",
+    "source": "https://github.com/feiskyer/claude-code-settings",
+    "domain": "settings",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy settings and commands to your Claude Code configuration"
+    ],
+    "tags": ["settings", "commands", "agents", "vibe-coding"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "vincenthopf/My-Claude-Code",
+    "type": "command",
+    "description": "Curated list of commands, files, and workflows for Claude Code used daily. The Essentials collection for everyday development.",
+    "source": "https://github.com/vincenthopf/My-Claude-Code",
+    "domain": "essentials",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy essential commands and workflows"
+    ],
+    "tags": ["essentials", "daily-use", "commands", "workflows"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "trailofbits/skills",
+    "type": "skill",
+    "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows. Includes static analysis with CodeQL and Semgrep, variant analysis, fix verification, and differential code review.",
+    "source": "https://github.com/trailofbits/skills",
+    "domain": "security",
+    "dependencies": ["CodeQL", "Semgrep"],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy security skills to .claude/skills/",
+      "Install CodeQL and/or Semgrep for full functionality"
+    ],
+    "tags": ["security", "trail-of-bits", "vulnerability-detection", "codeql", "semgrep", "audit"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "trailofbits/claude-code-config",
+    "type": "skill",
+    "description": "Opinionated defaults, documentation, and workflows for Claude Code at Trail of Bits.",
+    "source": "https://github.com/trailofbits/claude-code-config",
+    "domain": "configuration",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Adopt opinionated defaults for your project"
+    ],
+    "tags": ["configuration", "trail-of-bits", "opinionated", "defaults", "workflows"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "wrsmith108/claude-skill-security-auditor",
+    "type": "skill",
+    "description": "Claude Code skill for running structured security audits with actionable remediation plans.",
+    "source": "https://github.com/wrsmith108/claude-skill-security-auditor",
+    "domain": "security",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy skill to .claude/skills/"
+    ],
+    "tags": ["security", "audit", "remediation", "structured"],
+    "version": "1.0.0",
+    "files": ["SKILL.md"]
+  },
+  {
+    "name": "Eyadkelleh/awesome-claude-skills-security",
+    "type": "skill",
+    "description": "Security testing toolkit for Claude Code: curated SecLists wordlists, injection payloads, and expert agents for authorized pentesting, CTFs, and bug bounties.",
+    "source": "https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "security",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Configure security testing agents",
+      "Use for authorized pentesting and CTFs only"
+    ],
+    "tags": ["security", "pentesting", "ctf", "bug-bounty", "seclists", "injection"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Masriyan/Claude-Code-CyberSecurity-Skill",
+    "type": "skill",
+    "description": "Comprehensive collection of 15 Claude Code Skills for cybersecurity professionals covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, OWASP Top 10, XSS/SQLi detection, API security, and cloud security auditing.",
+    "source": "https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill",
+    "domain": "security",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy cybersecurity skills to .claude/skills/",
+      "Select skills relevant to your security focus area"
+    ],
+    "tags": ["cybersecurity", "15-skills", "offensive", "defensive", "reverse-engineering", "threat-hunting", "owasp", "cloud-security"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "nobrainer-tech/nobrainer-claude-skills",
+    "type": "skill",
+    "description": "Essential skills for Claude Code including security auditing, hardening guidance, and more.",
+    "source": "https://github.com/nobrainer-tech/nobrainer-claude-skills",
+    "domain": "security",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy skills to .claude/skills/"
+    ],
+    "tags": ["security", "auditing", "hardening", "essential"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Lum1104/Understand-Anything",
+    "type": "skill",
+    "description": "Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about.",
+    "source": "https://github.com/Lum1104/Understand-Anything",
+    "domain": "code-understanding",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Install the skill in .claude/skills/",
+      "Point at any codebase to generate a knowledge graph"
+    ],
+    "tags": ["knowledge-graph", "codebase-analysis", "interactive", "exploration"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "htdt/godogen",
+    "type": "skill",
+    "description": "Claude Code skills that build complete Godot 4 projects from a game description.",
+    "source": "https://github.com/htdt/godogen",
+    "domain": "game-development",
+    "dependencies": ["Godot 4"],
+    "installation_steps": [
+      "Clone the repository",
+      "Install the skill in .claude/skills/",
+      "Provide a game description to generate a Godot 4 project"
+    ],
+    "tags": ["godot", "game-development", "code-generation", "godot4"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "antonbabenko/terraform-skill",
+    "type": "skill",
+    "description": "Terraform skill for Claude Code with CLAUDE.md configuration for infrastructure-as-code workflows.",
+    "source": "https://github.com/antonbabenko/terraform-skill",
+    "domain": "infrastructure",
+    "dependencies": ["Terraform"],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy CLAUDE.md and skill files to your Terraform project"
+    ],
+    "tags": ["terraform", "infrastructure", "iac", "devops"],
+    "version": "1.0.0",
+    "files": ["CLAUDE.md"]
+  },
+  {
+    "name": "obra/superpowers",
+    "type": "skill",
+    "description": "An agentic skills framework and software development methodology that works. Available via the official Claude plugin marketplace.",
+    "source": "https://github.com/obra/superpowers",
+    "domain": "framework",
+    "dependencies": [],
+    "installation_steps": [
+      "Install via the Claude plugin marketplace",
+      "Or clone and configure manually"
+    ],
+    "tags": ["framework", "methodology", "superpowers", "agentic"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Gentleman-Programming/agent-teams-lite",
+    "type": "agent",
+    "description": "Spec-Driven Development with AI Sub-Agents. An orchestrator + 9 specialized sub-agents for structured feature development. Zero dependencies. Pure Markdown. Works with Claude Code, OpenCode, Cursor, and more.",
+    "source": "https://github.com/Gentleman-Programming/agent-teams-lite",
+    "domain": "agent-orchestration",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy agent definitions to your project",
+      "Works with pure Markdown - no dependencies needed"
+    ],
+    "tags": ["agent-teams", "orchestrator", "9-subagents", "spec-driven", "zero-dependencies", "cross-platform"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "0xfurai/claude-code-subagents",
+    "type": "agent",
+    "description": "Comprehensive collection of 100+ production-ready development subagents for Claude Code.",
+    "source": "https://github.com/0xfurai/claude-code-subagents",
+    "domain": "subagents",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy subagent definitions to .claude/agents/"
+    ],
+    "tags": ["subagents", "100+", "production-ready", "development"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "lst97/claude-code-sub-agents",
+    "type": "agent",
+    "description": "Collection of specialized AI subagents for Claude Code for full-stack development personal use.",
+    "source": "https://github.com/lst97/claude-code-sub-agents",
+    "domain": "subagents",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy subagent definitions to your Claude Code project"
+    ],
+    "tags": ["subagents", "full-stack", "personal", "specialized"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "shanraisshan/claude-code-best-practice",
+    "type": "skill",
+    "description": "Best practices collection for Claude Code with comprehensive CLAUDE.md configuration examples. 'Practice made Claude perfect.'",
+    "source": "https://github.com/shanraisshan/claude-code-best-practice",
+    "domain": "best-practices",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Review CLAUDE.md examples",
+      "Adopt practices iteratively"
+    ],
+    "tags": ["best-practices", "CLAUDE.md", "configuration", "examples"],
+    "version": "1.0.0",
+    "files": ["CLAUDE.md"]
+  },
+  {
+    "name": "zebbern/claude-code-guide",
+    "type": "skill",
+    "description": "Claude Code Guide - Setup, Commands, workflows, agents, skills and tips-n-tricks to go from beginner to power user.",
+    "source": "https://github.com/zebbern/claude-code-guide",
+    "domain": "guide",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the guide",
+      "Follow setup instructions"
+    ],
+    "tags": ["guide", "beginner-to-advanced", "tips", "workflows"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+    "type": "skill",
+    "description": "The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, integrations, MCP servers, tools, and the BMAD method.",
+    "source": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+    "domain": "guide",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the comprehensive guide",
+      "Follow step-by-step tutorials"
+    ],
+    "tags": ["guide", "all-in-one", "prompt-engineering", "bmad", "mcp", "automation"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "luongnv89/claude-howto",
+    "type": "skill",
+    "description": "Visual, example-driven guide to Claude Code from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+    "source": "https://github.com/luongnv89/claude-howto",
+    "domain": "guide",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the visual guide",
+      "Copy-paste templates as needed"
+    ],
+    "tags": ["guide", "visual", "examples", "copy-paste", "templates"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "ruvnet/claude-flow",
+    "type": "agent",
+    "description": "Claude Flow - multi-agent orchestration framework with a hooks system, Wiki documentation. Supports complex workflow patterns with agent coordination.",
+    "source": "https://github.com/ruvnet/claude-flow",
+    "domain": "agent-orchestration",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone the repository",
+      "Set up the hooks system per Wiki documentation",
+      "Configure multi-agent workflows"
+    ],
+    "tags": ["orchestration", "multi-agent", "hooks", "workflow", "framework"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "ruvnet/ruflo",
+    "type": "skill",
+    "description": "CLAUDE.md Templates collection including security audit templates and comprehensive configuration Wiki.",
+    "source": "https://github.com/ruvnet/ruflo",
+    "domain": "templates",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the Wiki for CLAUDE.md templates",
+      "Copy and customize templates for your project"
+    ],
+    "tags": ["templates", "CLAUDE.md", "security-audit", "wiki"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "tonysurfly/awesome-claude",
+    "type": "skill",
+    "description": "Curated list of awesome things related to Anthropic Claude including slash-commands, CLAUDE.md files, CLI tools, and workflows.",
+    "source": "https://github.com/tonysurfly/awesome-claude",
+    "domain": "curated-list",
+    "dependencies": [],
+    "installation_steps": [
+      "Browse the awesome list",
+      "Follow links to individual resources"
+    ],
+    "tags": ["awesome-list", "comprehensive", "slash-commands", "cli-tools"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "SkillsMP (skillsmp.com)",
+    "type": "skill",
+    "description": "Agent Skills Marketplace with 500,000+ agent skills compatible with Claude Code, Codex CLI, and ChatGPT. Smart search, category filtering, and quality indicators.",
+    "source": "https://skillsmp.com",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit skillsmp.com",
+      "Browse and search 500,000+ skills",
+      "Follow installation instructions per skill"
+    ],
+    "tags": ["marketplace", "500k-skills", "cross-platform", "search", "quality-indicators"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Claude Code Plugin Marketplace (claudemarketplaces.com)",
+    "type": "plugin",
+    "description": "Claude Code Plugin Marketplace - AI Tools and Extensions directory for Claude Code.",
+    "source": "https://claudemarketplaces.com/",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit claudemarketplaces.com",
+      "Browse available plugins",
+      "Follow per-plugin installation steps"
+    ],
+    "tags": ["marketplace", "plugins", "extensions", "directory"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Claude Skills Market (claudeskillsmarket.com)",
+    "type": "skill",
+    "description": "Dedicated Claude Skills Market website for browsing and discovering Claude Code skills.",
+    "source": "https://www.claudeskillsmarket.com/",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit claudeskillsmarket.com",
+      "Browse available skills by category"
+    ],
+    "tags": ["marketplace", "skills", "directory"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Claude Plugin Hub (claudepluginhub.com)",
+    "type": "plugin",
+    "description": "Community Directory for Claude Code Plugins at ClaudePluginHub.",
+    "source": "https://www.claudepluginhub.com/",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit claudepluginhub.com",
+      "Browse community-contributed plugins"
+    ],
+    "tags": ["marketplace", "community", "plugins", "directory"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "MCP Market Agent Skills (mcpmarket.com)",
+    "type": "skill",
+    "description": "Agent Skills Directory for Claude, ChatGPT, and Codex on MCP Market platform.",
+    "source": "https://mcpmarket.com/tools/skills",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit mcpmarket.com/tools/skills",
+      "Browse agent skills by platform"
+    ],
+    "tags": ["marketplace", "mcp", "cross-platform", "directory"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Build with Claude Plugins (buildwithclaude.com)",
+    "type": "plugin",
+    "description": "Plugins directory at Build with Claude - community resource for Claude Code plugins and extensions.",
+    "source": "https://buildwithclaude.com/plugins",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit buildwithclaude.com/plugins",
+      "Browse available plugins"
+    ],
+    "tags": ["marketplace", "plugins", "community"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Awesome Claude (awesomeclaude.ai)",
+    "type": "skill",
+    "description": "Claude AI Resources Directory - comprehensive directory of Claude-related resources, tools, and workflows.",
+    "source": "https://awesomeclaude.ai/",
+    "domain": "directory",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit awesomeclaude.ai",
+      "Browse resources by category"
+    ],
+    "tags": ["directory", "comprehensive", "resources", "tools"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "AI Templates (aitmpl.com)",
+    "type": "skill",
+    "description": "Claude Code Templates: 1000+ Agents, Commands, Skills and MCP Integrations by Daniel Avila. Polished UI with usage dashboard and analytics.",
+    "source": "https://www.aitmpl.com/",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit aitmpl.com",
+      "Browse 1000+ templates",
+      "Follow installation instructions"
+    ],
+    "tags": ["marketplace", "1000+", "agents", "commands", "skills", "mcp", "dashboard"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Repomix Claude Code Plugins",
+    "type": "plugin",
+    "description": "Repomix guide for Claude Code Plugins - documentation on using Repomix with Claude Code plugin ecosystem.",
+    "source": "https://repomix.com/guide/claude-code-plugins",
+    "domain": "documentation",
+    "dependencies": ["Repomix"],
+    "installation_steps": [
+      "Visit repomix.com/guide/claude-code-plugins",
+      "Follow the integration guide"
+    ],
+    "tags": ["repomix", "plugins", "documentation", "integration"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Composio Full-Stack Claude Code Setup",
+    "type": "skill",
+    "description": "Guide on how to ship apps faster with full-stack Claude Code setup including Skills, MCPs, and Plugins integration.",
+    "source": "https://composio.dev/content/full-stack-claude-code-setup-(skills-mcp-plugins)",
+    "domain": "guide",
+    "dependencies": ["Composio"],
+    "installation_steps": [
+      "Follow the Composio guide",
+      "Configure skills, MCP servers, and plugins together"
+    ],
+    "tags": ["full-stack", "composio", "skills", "mcp", "plugins", "integration"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "liteLLM Claude Code Plugin Marketplace",
+    "type": "plugin",
+    "description": "liteLLM documentation on Claude Code Plugin Marketplace (Managed Skills) integration.",
+    "source": "https://docs.litellm.ai/docs/tutorials/claude_code_plugin_marketplace",
+    "domain": "integration",
+    "dependencies": ["liteLLM"],
+    "installation_steps": [
+      "Follow liteLLM tutorial",
+      "Configure managed skills through liteLLM"
+    ],
+    "tags": ["litellm", "managed-skills", "marketplace", "integration"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "ananddtyagi/cc-marketplace",
+    "type": "plugin",
+    "description": "Marketplace repo for Claude Code Plugins - community-driven marketplace for discovering and sharing plugins.",
+    "source": "https://github.com/ananddtyagi/cc-marketplace",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Clone or browse the repository",
+      "Install plugins from the marketplace"
+    ],
+    "tags": ["marketplace", "community", "plugins"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "mhattingpete/claude-skills-marketplace",
+    "type": "skill",
+    "description": "Claude Code Skills for software engineering workflows - Git automation, testing, and code review.",
+    "source": "https://github.com/mhattingpete/claude-skills-marketplace",
+    "domain": "development-workflow",
+    "dependencies": ["Git"],
+    "installation_steps": [
+      "Clone the repository",
+      "Copy skills to .claude/skills/"
+    ],
+    "tags": ["git-automation", "testing", "code-review", "workflow"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Subagents.cc",
+    "type": "agent",
+    "description": "Claude Code Agents directory website - dedicated platform for discovering and sharing Claude Code agent configurations.",
+    "source": "https://subagents.cc/",
+    "domain": "directory",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit subagents.cc",
+      "Browse agent configurations"
+    ],
+    "tags": ["directory", "agents", "subagents", "platform"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Shipyard Multi-Agent Orchestration",
+    "type": "agent",
+    "description": "Shipyard platform for multi-agent orchestration with Claude Code in 2026.",
+    "source": "https://shipyard.build/blog/claude-code-multi-agent/",
+    "domain": "orchestration",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit shipyard.build for platform setup",
+      "Configure multi-agent Claude Code workflows"
+    ],
+    "tags": ["orchestration", "multi-agent", "platform", "2026"],
+    "version": "1.0.0",
+    "files": []
+  },
+  {
+    "name": "Cyrus AI Skills Marketplace",
+    "type": "skill",
+    "description": "Skills Marketplace integrated with Cyrus AI Development Agent.",
+    "source": "https://www.atcyrus.com/skills",
+    "domain": "marketplace",
+    "dependencies": [],
+    "installation_steps": [
+      "Visit atcyrus.com/skills",
+      "Browse skills compatible with Claude Code"
+    ],
+    "tags": ["marketplace", "cyrus-ai", "development-agent"],
+    "version": "1.0.0",
+    "files": []
+  }
+]

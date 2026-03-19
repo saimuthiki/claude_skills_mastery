@@ -1,0 +1,34 @@
+[
+  {
+    "name": "awesome-claude-skills",
+    "type": "skill",
+    "description": "Comprehensive catalog of 32,742 Claude agent skills organized across 13 domain categories",
+    "source": "https://chat2anyllm.github.io/awesome-claude-skills/",
+    "domain": "misc",
+    "dependencies": [],
+    "installation_steps": [],
+    "tags": ["catalog", "directory", "skills"],
+    "version": "1.0.0",
+    "files": [],
+    "metadata": {
+      "total_skills": 32742,
+      "domains": [
+        {"name": "backend-development", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/backend-development.html", "skill_count": 6022},
+        {"name": "ai-and-llm", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/ai-and-llm.html", "skill_count": 2712},
+        {"name": "data-and-analytics", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/data-and-analytics.html", "skill_count": 1184},
+        {"name": "frontend-development", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/frontend-development.html", "skill_count": 965},
+        {"name": "devops-and-infrastructure", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/devops-and-infrastructure.html", "skill_count": 940},
+        {"name": "security", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/security.html", "skill_count": 569},
+        {"name": "testing-and-quality", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/testing-and-quality.html", "skill_count": 565},
+        {"name": "uncategorized", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/uncategorized.html", "skill_count_estimate": "unknown"},
+        {"name": "version-control-and-collaboration", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/version-control-and-collaboration.html", "skill_count_estimate": "unknown"},
+        {"name": "tools-and-utilities", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/tools-and-utilities.html", "skill_count_estimate": "unknown"},
+        {"name": "machine-learning", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/machine-learning.html", "skill_count_estimate": "unknown"},
+        {"name": "documentation", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/documentation.html", "skill_count_estimate": "unknown"},
+        {"name": "business-and-productivity", "url": "https://chat2anyllm.github.io/awesome-claude-skills/domains/business-and-productivity.html", "skill_count_estimate": "unknown"}
+      ],
+      "full_listing_url": "https://chat2anyllm.github.io/awesome-claude-skills/FULL-SKILLS.html#complete-skills-listing",
+      "note": "WebFetch permission was denied after initial batch. 7 of 13 domain pages were successfully crawled. Remaining 6 domains (uncategorized, version-control, tools-and-utilities, machine-learning, documentation, business-and-productivity) could not be fetched."
+    }
+  }
+]

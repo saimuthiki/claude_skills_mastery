@@ -1,0 +1,10 @@
+{
+  "name": "post-organize",
+  "type": "hook",
+  "description": "Validates registry integrity after domain organization completes",
+  "trigger": "PostToolUse",
+  "matcher": "python*organize*",
+  "command": "python -c \"import json; r=json.load(open('D:/claude_code_mastery_real/claude_skills_mastery/registry/registry.json')); print(f'Registry: {r[\"stats\"][\"total_entities\"]} entities across {len(r[\"stats\"][\"domains\"])} domains')\"",
+  "domain": "automation",
+  "tags": ["hook", "validation", "registry"]
+}

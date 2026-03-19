@@ -1,0 +1,8 @@
+# Cloned source repositories (too large for GitHub)
+sources/repos/
+
+# Temp files
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,656 @@
+{
+  "discovery_date": "2026-03-18",
+  "search_queries_used": [
+    "\"claude code skills\" site:github.com",
+    "\"claude code agents\" 2025 2026",
+    "\".claude/commands\" collection github",
+    "\"claude code hooks\" examples github",
+    "\"claude code plugins\" repository",
+    "\"awesome claude code\" github",
+    "\"claude skills marketplace\"",
+    "\"claude code templates\" github 2025",
+    "claude code subagents orchestration github 2026",
+    "claude code MCP server plugins best collection",
+    "claude code CLAUDE.md best practices configuration github",
+    "claude code slash commands development workflow github",
+    "claude code \"cchooks\" OR \"hook-comms\" OR \"multi-agent\" hooks SDK",
+    "claude code security auditing testing automation skills github",
+    "site:github.com claude code \"SKILL.md\" OR \"skill.md\" production"
+  ],
+  "github_repositories": [
+    {
+      "url": "https://github.com/anthropics/skills",
+      "name": "anthropics/skills",
+      "category": "official-skills",
+      "description": "Official Anthropic repository for Agent Skills (Creative, Design, Development, Enterprise, Document)"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code",
+      "name": "anthropics/claude-code",
+      "category": "official-platform",
+      "description": "Official Claude Code repository with plugins, hook examples, and SKILL.md templates"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "name": "anthropics/claude-plugins-official",
+      "category": "official-plugins",
+      "description": "Official Anthropic-managed directory of high quality Claude Code Plugins"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code-security-review",
+      "name": "anthropics/claude-code-security-review",
+      "category": "official-security",
+      "description": "AI-powered security review GitHub Action using Claude"
+    },
+    {
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "name": "alirezarezvani/claude-skills",
+      "category": "skills-collection",
+      "description": "+192 Claude Code skills & agent plugins for 11+ coding agents"
+    },
+    {
+      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+      "name": "alirezarezvani/claude-code-skill-factory",
+      "category": "skill-development",
+      "description": "Toolkit for building and deploying production-ready Claude Skills at scale"
+    },
+    {
+      "url": "https://github.com/levnikolaevich/claude-code-skills",
+      "name": "levnikolaevich/claude-code-skills",
+      "category": "skills-collection",
+      "description": "Production-ready skills for full delivery workflow"
+    },
+    {
+      "url": "https://github.com/daymade/claude-code-skills",
+      "name": "daymade/claude-code-skills",
+      "category": "skills-marketplace",
+      "description": "42 production-ready skills for development workflows"
+    },
+    {
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "name": "ComposioHQ/awesome-claude-skills",
+      "category": "awesome-list",
+      "description": "Curated list of Claude Skills (cross-platform: Claude.ai, Claude Code, API)"
+    },
+    {
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "name": "travisvn/awesome-claude-skills",
+      "category": "awesome-list",
+      "description": "Curated Claude Skills list focused on Claude Code"
+    },
+    {
+      "url": "https://github.com/BehiSecc/awesome-claude-skills",
+      "name": "BehiSecc/awesome-claude-skills",
+      "category": "awesome-list",
+      "description": "Curated list of Claude Skills with community contributions"
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "name": "VoltAgent/awesome-agent-skills",
+      "category": "awesome-list",
+      "description": "500+ agent skills from official dev teams and community"
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+      "name": "VoltAgent/awesome-claude-code-subagents",
+      "category": "subagents",
+      "description": "100+ specialized Claude Code subagents collection"
+    },
+    {
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "name": "sickn33/antigravity-awesome-skills",
+      "category": "skills-collection",
+      "description": "1000+ Agentic Skills for Claude Code/Antigravity/Cursor"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "name": "hesreallyhim/awesome-claude-code",
+      "category": "awesome-list",
+      "description": "Skills, hooks, slash-commands, agent orchestrators, apps, plugins"
+    },
+    {
+      "url": "https://github.com/jmanhype/awesome-claude-code",
+      "name": "jmanhype/awesome-claude-code",
+      "category": "awesome-list",
+      "description": "Claude Code plugins, MCP servers, editor integrations"
+    },
+    {
+      "url": "https://github.com/jqueryscript/awesome-claude-code",
+      "name": "jqueryscript/awesome-claude-code",
+      "category": "awesome-list",
+      "description": "Tools, IDE integrations, frameworks for Claude Code"
+    },
+    {
+      "url": "https://github.com/pascalporedda/awesome-claude-code",
+      "name": "pascalporedda/awesome-claude-code",
+      "category": "awesome-list",
+      "description": "Curated awesome list for Claude Code resources"
+    },
+    {
+      "url": "https://github.com/ccplugins/awesome-claude-code-plugins",
+      "name": "ccplugins/awesome-claude-code-plugins",
+      "category": "awesome-list",
+      "description": "Curated list of slash commands, subagents, MCP servers, and hooks"
+    },
+    {
+      "url": "https://github.com/tonysurfly/awesome-claude",
+      "name": "tonysurfly/awesome-claude",
+      "category": "awesome-list",
+      "description": "Awesome things related to Anthropic Claude"
+    },
+    {
+      "url": "https://github.com/wshobson/commands",
+      "name": "wshobson/commands",
+      "category": "slash-commands",
+      "description": "57 production-ready slash commands (15 workflows, 42 tools)"
+    },
+    {
+      "url": "https://github.com/wshobson/agents",
+      "name": "wshobson/agents",
+      "category": "agent-orchestration",
+      "description": "112 agents, 16 orchestrators, 146 skills, 79 tools in 72 plugins"
+    },
+    {
+      "url": "https://github.com/qdhenry/Claude-Command-Suite",
+      "name": "qdhenry/Claude-Command-Suite",
+      "category": "slash-commands",
+      "description": "216+ slash commands, 12 Skills, 54 AI agents"
+    },
+    {
+      "url": "https://github.com/badlogic/claude-commands",
+      "name": "badlogic/claude-commands",
+      "category": "slash-commands",
+      "description": "Global Claude Code commands and workflows"
+    },
+    {
+      "url": "https://github.com/artemgetmann/claude-slash-commands",
+      "name": "artemgetmann/claude-slash-commands",
+      "category": "slash-commands",
+      "description": "Collection of useful slash commands for Claude Code CLI"
+    },
+    {
+      "url": "https://github.com/danielrosehill/Claude-Slash-Commands",
+      "name": "danielrosehill/Claude-Slash-Commands",
+      "category": "slash-commands",
+      "description": "Personal Claude Code slash commands collection"
+    },
+    {
+      "url": "https://github.com/hiteshbedre/claude-custom-slash-commands",
+      "name": "hiteshbedre/claude-custom-slash-commands",
+      "category": "slash-commands",
+      "description": "Custom slash commands to supercharge development workflow"
+    },
+    {
+      "url": "https://github.com/iannuttall/claude-sessions",
+      "name": "iannuttall/claude-sessions",
+      "category": "slash-commands",
+      "description": "Session tracking and documentation slash commands"
+    },
+    {
+      "url": "https://github.com/papaoloba/spec-based-claude-code",
+      "name": "papaoloba/spec-based-claude-code",
+      "category": "slash-commands",
+      "description": "Spec-Driven Development workflow using slash commands"
+    },
+    {
+      "url": "https://github.com/davepoon/claude-code-subagents-collection",
+      "name": "davepoon/claude-code-subagents-collection",
+      "category": "collection-hub",
+      "description": "Hub for Skills, Agents, Commands, Hooks, Plugins (175 commands, 28 hooks, 26 skills, 50 plugins)"
+    },
+    {
+      "url": "https://github.com/disler/claude-code-hooks-mastery",
+      "name": "disler/claude-code-hooks-mastery",
+      "category": "hooks",
+      "description": "Master Claude Code Hooks with Python scripts"
+    },
+    {
+      "url": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+      "name": "disler/claude-code-hooks-multi-agent-observability",
+      "category": "hooks",
+      "description": "Real-time monitoring for Claude Code multi-agent systems"
+    },
+    {
+      "url": "https://github.com/karanb192/claude-code-hooks",
+      "name": "karanb192/claude-code-hooks",
+      "category": "hooks",
+      "description": "Copy-paste hooks: safety, automation, notifications"
+    },
+    {
+      "url": "https://github.com/johnlindquist/claude-hooks",
+      "name": "johnlindquist/claude-hooks",
+      "category": "hooks",
+      "description": "TypeScript-powered hooks with full type safety"
+    },
+    {
+      "url": "https://github.com/decider/claude-hooks",
+      "name": "decider/claude-hooks",
+      "category": "hooks",
+      "description": "Hooks for enforcing clean code practices"
+    },
+    {
+      "url": "https://github.com/GowayLee/cchooks",
+      "name": "GowayLee/cchooks",
+      "category": "hooks-sdk",
+      "description": "Lightweight Python SDK for Claude Code hooks"
+    },
+    {
+      "url": "https://github.com/ChrisWiles/claude-code-showcase",
+      "name": "ChrisWiles/claude-code-showcase",
+      "category": "showcase",
+      "description": "Comprehensive example project with hooks, skills, agents, commands, GitHub Actions"
+    },
+    {
+      "url": "https://github.com/davila7/claude-code-templates",
+      "name": "davila7/claude-code-templates",
+      "category": "templates",
+      "description": "CLI tool with agents, commands, hooks, MCPs, and project templates"
+    },
+    {
+      "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "name": "FlorianBruniaux/claude-code-ultimate-guide",
+      "category": "guide",
+      "description": "Beginner to power user guide with production templates"
+    },
+    {
+      "url": "https://github.com/serpro69/claude-starter-kit",
+      "name": "serpro69/claude-starter-kit",
+      "category": "templates",
+      "description": "Starter template with configs, skills, agents, MCP servers"
+    },
+    {
+      "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
+      "name": "pedrohcgs/claude-code-my-workflow",
+      "category": "academic",
+      "description": "Academic template for LaTeX/Beamer + R with multi-agent review"
+    },
+    {
+      "url": "https://github.com/scotthavird/claude-code-template",
+      "name": "scotthavird/claude-code-template",
+      "category": "templates",
+      "description": "Starter template for rapid prototyping"
+    },
+    {
+      "url": "https://github.com/centminmod/my-claude-code-setup",
+      "name": "centminmod/my-claude-code-setup",
+      "category": "templates",
+      "description": "CLAUDE.md memory bank system and configuration"
+    },
+    {
+      "url": "https://github.com/feiskyer/claude-code-settings",
+      "name": "feiskyer/claude-code-settings",
+      "category": "settings",
+      "description": "Settings, commands, and agents for vibe coding"
+    },
+    {
+      "url": "https://github.com/vincenthopf/My-Claude-Code",
+      "name": "vincenthopf/My-Claude-Code",
+      "category": "essentials",
+      "description": "Daily-use commands, files, and workflows"
+    },
+    {
+      "url": "https://github.com/trailofbits/skills",
+      "name": "trailofbits/skills",
+      "category": "security-skills",
+      "description": "Security research skills with CodeQL and Semgrep"
+    },
+    {
+      "url": "https://github.com/trailofbits/claude-code-config",
+      "name": "trailofbits/claude-code-config",
+      "category": "configuration",
+      "description": "Opinionated defaults and workflows for Claude Code"
+    },
+    {
+      "url": "https://github.com/wrsmith108/claude-skill-security-auditor",
+      "name": "wrsmith108/claude-skill-security-auditor",
+      "category": "security-skills",
+      "description": "Structured security audits with remediation plans"
+    },
+    {
+      "url": "https://github.com/Eyadkelleh/awesome-claude-skills-security",
+      "name": "Eyadkelleh/awesome-claude-skills-security",
+      "category": "security-skills",
+      "description": "Security testing toolkit: SecLists, payloads, pentesting agents"
+    },
+    {
+      "url": "https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill",
+      "name": "Masriyan/Claude-Code-CyberSecurity-Skill",
+      "category": "security-skills",
+      "description": "15 cybersecurity skills (offensive, defensive, reverse engineering)"
+    },
+    {
+      "url": "https://github.com/nobrainer-tech/nobrainer-claude-skills",
+      "name": "nobrainer-tech/nobrainer-claude-skills",
+      "category": "security-skills",
+      "description": "Essential security auditing and hardening skills"
+    },
+    {
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "name": "Lum1104/Understand-Anything",
+      "category": "code-understanding",
+      "description": "Skills to turn codebases into interactive knowledge graphs"
+    },
+    {
+      "url": "https://github.com/htdt/godogen",
+      "name": "htdt/godogen",
+      "category": "game-development",
+      "description": "Skills to build Godot 4 projects from game descriptions"
+    },
+    {
+      "url": "https://github.com/antonbabenko/terraform-skill",
+      "name": "antonbabenko/terraform-skill",
+      "category": "infrastructure",
+      "description": "Terraform skill with CLAUDE.md for IaC workflows"
+    },
+    {
+      "url": "https://github.com/obra/superpowers",
+      "name": "obra/superpowers",
+      "category": "framework",
+      "description": "Agentic skills framework and development methodology"
+    },
+    {
+      "url": "https://github.com/Gentleman-Programming/agent-teams-lite",
+      "name": "Gentleman-Programming/agent-teams-lite",
+      "category": "agent-orchestration",
+      "description": "Orchestrator + 9 sub-agents, zero dependencies, pure Markdown"
+    },
+    {
+      "url": "https://github.com/0xfurai/claude-code-subagents",
+      "name": "0xfurai/claude-code-subagents",
+      "category": "subagents",
+      "description": "100+ production-ready development subagents"
+    },
+    {
+      "url": "https://github.com/lst97/claude-code-sub-agents",
+      "name": "lst97/claude-code-sub-agents",
+      "category": "subagents",
+      "description": "Specialized subagents for full-stack development"
+    },
+    {
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "name": "shanraisshan/claude-code-best-practice",
+      "category": "best-practices",
+      "description": "Best practices with CLAUDE.md configuration examples"
+    },
+    {
+      "url": "https://github.com/zebbern/claude-code-guide",
+      "name": "zebbern/claude-code-guide",
+      "category": "guide",
+      "description": "Beginner to power user guide"
+    },
+    {
+      "url": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "name": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "category": "guide",
+      "description": "All-in-one mastery guide including BMAD method"
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "name": "luongnv89/claude-howto",
+      "category": "guide",
+      "description": "Visual, example-driven guide with copy-paste templates"
+    },
+    {
+      "url": "https://github.com/ruvnet/claude-flow",
+      "name": "ruvnet/claude-flow",
+      "category": "agent-orchestration",
+      "description": "Multi-agent orchestration framework with hooks system"
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo",
+      "name": "ruvnet/ruflo",
+      "category": "templates",
+      "description": "CLAUDE.md Templates collection with Wiki"
+    },
+    {
+      "url": "https://github.com/ananddtyagi/cc-marketplace",
+      "name": "ananddtyagi/cc-marketplace",
+      "category": "marketplace",
+      "description": "Marketplace repo for Claude Code Plugins"
+    },
+    {
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace",
+      "name": "mhattingpete/claude-skills-marketplace",
+      "category": "skills-marketplace",
+      "description": "Skills for Git automation, testing, and code review"
+    }
+  ],
+  "websites_and_platforms": [
+    {
+      "url": "https://skillsmp.com",
+      "name": "SkillsMP",
+      "category": "marketplace",
+      "description": "500,000+ agent skills for Claude Code, Codex CLI, ChatGPT"
+    },
+    {
+      "url": "https://claudemarketplaces.com/",
+      "name": "Claude Code Plugin Marketplace",
+      "category": "marketplace",
+      "description": "AI Tools & Extensions marketplace for Claude Code"
+    },
+    {
+      "url": "https://www.claudeskillsmarket.com/",
+      "name": "Claude Skills Market",
+      "category": "marketplace",
+      "description": "Dedicated marketplace for Claude Code skills"
+    },
+    {
+      "url": "https://www.claudepluginhub.com/",
+      "name": "Claude Plugin Hub",
+      "category": "marketplace",
+      "description": "Community directory for Claude Code Plugins"
+    },
+    {
+      "url": "https://mcpmarket.com/tools/skills",
+      "name": "MCP Market - Agent Skills",
+      "category": "marketplace",
+      "description": "Agent Skills Directory for Claude, ChatGPT & Codex"
+    },
+    {
+      "url": "https://buildwithclaude.com/plugins",
+      "name": "Build with Claude - Plugins",
+      "category": "marketplace",
+      "description": "Plugins directory at Build with Claude"
+    },
+    {
+      "url": "https://awesomeclaude.ai/",
+      "name": "Awesome Claude",
+      "category": "directory",
+      "description": "Claude AI Resources Directory"
+    },
+    {
+      "url": "https://www.aitmpl.com/",
+      "name": "AI Templates",
+      "category": "marketplace",
+      "description": "1000+ Agents, Commands, Skills & MCP Integrations"
+    },
+    {
+      "url": "https://subagents.cc/",
+      "name": "Subagents.cc",
+      "category": "directory",
+      "description": "Claude Code Agents directory"
+    },
+    {
+      "url": "https://www.atcyrus.com/skills",
+      "name": "Cyrus AI Skills Marketplace",
+      "category": "marketplace",
+      "description": "Skills Marketplace for Cyrus AI Development Agent"
+    },
+    {
+      "url": "https://repomix.com/guide/claude-code-plugins",
+      "name": "Repomix - Claude Code Plugins Guide",
+      "category": "documentation",
+      "description": "Guide on using Repomix with Claude Code plugin ecosystem"
+    },
+    {
+      "url": "https://shipyard.build/blog/claude-code-multi-agent/",
+      "name": "Shipyard - Multi-agent Claude Code",
+      "category": "platform",
+      "description": "Multi-agent orchestration platform for Claude Code"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/skills",
+      "name": "Claude Code Docs - Skills",
+      "category": "official-docs",
+      "description": "Official documentation on extending Claude with skills"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/hooks-guide",
+      "name": "Claude Code Docs - Hooks Guide",
+      "category": "official-docs",
+      "description": "Official hooks automation documentation"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/hooks",
+      "name": "Claude Code Docs - Hooks Reference",
+      "category": "official-docs",
+      "description": "Official hooks API reference"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/sub-agents",
+      "name": "Claude Code Docs - Subagents",
+      "category": "official-docs",
+      "description": "Official documentation on creating custom subagents"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/discover-plugins",
+      "name": "Claude Code Docs - Discover Plugins",
+      "category": "official-docs",
+      "description": "Official documentation on discovering and installing prebuilt plugins"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/best-practices",
+      "name": "Claude Code Docs - Best Practices",
+      "category": "official-docs",
+      "description": "Official best practices documentation"
+    },
+    {
+      "url": "https://composio.dev/content/full-stack-claude-code-setup-(skills-mcp-plugins)",
+      "name": "Composio - Full Stack Claude Code Setup",
+      "category": "guide",
+      "description": "Guide on integrating Skills, MCPs, and Plugins"
+    },
+    {
+      "url": "https://docs.litellm.ai/docs/tutorials/claude_code_plugin_marketplace",
+      "name": "liteLLM - Claude Code Plugin Marketplace",
+      "category": "integration",
+      "description": "Tutorial on managed skills via liteLLM"
+    },
+    {
+      "url": "https://claudefa.st/blog/tools/mcp-extensions/best-addons",
+      "name": "ClaudeFast - 50+ Best MCP Servers",
+      "category": "guide",
+      "description": "Curated list of best MCP servers for Claude Code in 2026"
+    },
+    {
+      "url": "https://www.turbodocx.com/blog/best-claude-code-skills-plugins-mcp-servers",
+      "name": "TurboDocx - Best Claude Code Skills",
+      "category": "guide",
+      "description": "Best Claude Code Plugins, Skills & MCP Servers (2026)"
+    },
+    {
+      "url": "https://mcpcat.io/guides/best-mcp-servers-for-claude-code/",
+      "name": "MCPcat - Best MCP Servers",
+      "category": "guide",
+      "description": "Best MCP Servers for Claude Code - Tools & Integrations"
+    },
+    {
+      "url": "https://rosmur.github.io/claudecode-best-practices/",
+      "name": "Claude Code Best Practices (rosmur)",
+      "category": "guide",
+      "description": "Community best practices guide"
+    }
+  ],
+  "articles_and_blogs": [
+    {
+      "url": "https://medium.com/@unicodeveloper/10-must-have-skills-for-claude-and-any-coding-agent-in-2026-b5451b013051",
+      "title": "10 Must-Have Skills for Claude (and Any Coding Agent) in 2026",
+      "source": "Medium"
+    },
+    {
+      "url": "https://pub.towardsai.net/claude-code-agent-skills-2-0-from-custom-instructions-to-programmable-agents-ab6e4563c176",
+      "title": "Claude Code Agent Skills 2.0: From Custom Instructions to Programmable Agents",
+      "source": "Towards AI"
+    },
+    {
+      "url": "https://medium.com/@lmpo/the-evolution-of-claude-code-in-2025-a7355dcb7f70",
+      "title": "The Evolution of Claude Code in 2025",
+      "source": "Medium"
+    },
+    {
+      "url": "https://medium.com/@markchen69/claude-code-has-a-skills-marketplace-now-a-beginner-friendly-walkthrough-8adeb67cdc89",
+      "title": "Claude Code Has a Skills Marketplace Now - Beginner Walkthrough",
+      "source": "Medium"
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/",
+      "title": "How to Build a Production-Ready Claude Code Skill",
+      "source": "Towards Data Science"
+    },
+    {
+      "url": "https://muneebsa.medium.com/claude-code-extensions-explained-skills-mcp-hooks-subagents-agent-teams-plugins-9294907e84ff",
+      "title": "Claude Code Extensions Explained: Skills, MCP, Hooks, Subagents, Agent Teams & Plugins",
+      "source": "Medium"
+    },
+    {
+      "url": "https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/",
+      "title": "A Guide to Claude Code 2.0 and getting better at using coding agents",
+      "source": "Bear Blog"
+    },
+    {
+      "url": "https://thenewstack.io/anthropic-launches-a-multi-agent-code-review-tool-for-claude-code/",
+      "title": "Anthropic launches a multi-agent code review tool for Claude Code",
+      "source": "The New Stack"
+    },
+    {
+      "url": "https://www.vincentbruijn.nl/articles/custom-slash-commands/",
+      "title": "Streamlining Development Workflows with Claude Code Custom Commands",
+      "source": "Creative Programming"
+    },
+    {
+      "url": "https://buildtolaunch.substack.com/p/best-mcp-servers-claude-code",
+      "title": "Best MCP Servers for Claude Code: Replace Your Workflow, Keep Your Brain",
+      "source": "Substack"
+    },
+    {
+      "url": "https://apidog.com/blog/top-10-mcp-servers-for-claude-code/",
+      "title": "Top 10 Essential MCP Servers for Claude Code (2026)",
+      "source": "Apidog"
+    }
+  ],
+  "summary": {
+    "total_github_repositories": 66,
+    "total_websites_and_platforms": 24,
+    "total_articles": 11,
+    "categories_found": [
+      "official-skills",
+      "official-platform",
+      "official-plugins",
+      "official-security",
+      "skills-collection",
+      "skill-development",
+      "skills-marketplace",
+      "awesome-list",
+      "subagents",
+      "agent-orchestration",
+      "slash-commands",
+      "hooks",
+      "hooks-sdk",
+      "templates",
+      "configuration",
+      "security-skills",
+      "code-understanding",
+      "game-development",
+      "infrastructure",
+      "framework",
+      "showcase",
+      "guide",
+      "best-practices",
+      "academic",
+      "marketplace",
+      "directory",
+      "documentation",
+      "integration"
+    ]
+  }
+}

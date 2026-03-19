@@ -1,0 +1,10 @@
+{
+  "name": "pre-extract",
+  "type": "hook",
+  "description": "Validates source directories exist before running extraction pipeline",
+  "trigger": "PreToolUse",
+  "matcher": "python*extract*",
+  "command": "ls D:/claude_code_mastery_real/claude_skills_mastery/sources/repos/ && echo 'Sources ready'",
+  "domain": "automation",
+  "tags": ["hook", "validation", "extraction"]
+}

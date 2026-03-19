@@ -1,0 +1,18 @@
+[
+  {
+    "name": "mcpmarket-leaderboard",
+    "type": "skill",
+    "description": "MCP Market skills leaderboard page returned HTTP 429 (rate limited). Unable to extract individual entries. The site hosts a skills leaderboard ranked by GitHub stars across 18 categories.",
+    "source": "https://mcpmarket.com/tools/skills/leaderboard",
+    "domain": "misc",
+    "dependencies": [],
+    "installation_steps": [],
+    "tags": ["mcp", "leaderboard", "skills-directory"],
+    "version": "1.0.0",
+    "files": [],
+    "metadata": {
+      "status": "rate_limited",
+      "note": "Site returned 429 on multiple attempts. Cross-referencing with openaitoolshub blog data which references this site."
+    }
+  }
+]
